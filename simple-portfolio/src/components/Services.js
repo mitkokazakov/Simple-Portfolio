@@ -7,15 +7,15 @@ import consultingImg from '../images/consulting.png'
 function Services() {
     return (
 
-        <div className="mt-10 px-16 pb-3">
+        <div className="mt-10 px-6 pb-3 md:px-16">
 
-            <h1 className="text-left text-3xl py-4 dark:text-white">Services I offer</h1>
+            <h1 className="text-center text-3xl py-4 dark:text-white md:text-left">Services I offer</h1>
 
-            <p className="text-left dark:text-white"> Since the beginning of my journey as a freelance designer and developer, I've done remote work for <span className="text-teal-500">agencies</span> consulted for <span className="text-teal-500">startups</span> and collaborated with talanted people to create digital products for both business and consumer use.</p>
+            <p className="text-center dark:text-white md:text-left"> Since the beginning of my journey as a freelance designer and developer, I've done remote work for <span className="text-teal-500">agencies</span> consulted for <span className="text-teal-500">startups</span> and collaborated with talanted people to create digital products for both business and consumer use.</p>
 
-            <p className="py-5 text-left dark:text-white">I offer from a wide range of services, including brand design, programming and teaching.</p>
+            <p className="py-5 text-center dark:text-white md:text-left">I offer from a wide range of services, including brand design, programming and teaching.</p>
 
-            <div className=" flex justify-center gap-5 pt-4">
+            <div className=" flex flex-col justify-center gap-5 pt-4 md:flex-row">
 
                 <div className="px-7 py-5 text-center rounded-xl bg-sky-950">
                     <img className="mx-auto w-32 h-32" src={codeImg}></img>
