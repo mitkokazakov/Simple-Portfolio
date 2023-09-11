@@ -1,9 +1,14 @@
-
 import './App.css';
+
+import Navigation from './components/Navigation';
 
 function App() {
   return (
-    <div className=" h-screen bg-teal-200">
+    <div >
+
+      <div className="min-h-screen transition-all duration-500  dark:bg-sky-900">
+            <Navigation />
+      </div>
       
     </div>
   );
